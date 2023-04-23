@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <title>Xadrez</title>
+  </head>
+  <body>
+    <main class="main-container">
+    <!-- Informações do Jogador 1 -->
+      <aside class="user-infos user-1">
+        <span class="online-user">J1</span>
+        <div class="user-profile-picture" id="profile-picture-1">R</div>
+        <span class="user-name" id="user-name-1">Raro</span>
+      </aside>
+      <section class="section-xadrez-table">
+        <!-- Coluna 8 -->
+        <div class="horizontal-column">
+          <span class="generic-block relative white-block a8">
+            <small class="small-absolute-number">8</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/torre-pretas.svg"
+              alt="Torre preta"
+            />
+          </span>
+          <span class="generic-block purple-block b8">
+            <img
+              class="chess-pieces"
+              src="assets/svg/cavalo-pretas.svg"
+              alt="Cavalo preto"
+            />
+          </span>
+          <span class="generic-block white-block c8">
+            <img
+              class="chess-pieces"
+              src="assets/svg/bispo-pretas.svg"
+              alt="Bispo preto"
+            />
+          </span>
+          <span class="generic-block purple-block d8">
+            <img
+              class="chess-pieces"
+              src="assets/svg/dama-pretas.svg"
+              alt="RAinha preta"
+            />
+          </span>
+          <span class="generic-block white-block e8">
+            <img
+              class="chess-pieces"
+              src="assets/svg/rei-pretas.svg"
+              alt="Rei preto"
+            />
+          </span>
+          <span class="generic-block purple-block f8">
+            <img
+              class="chess-pieces"
+              src="assets/svg/bispo-pretas.svg"
+              alt="Bispo preto"
+            />
+          </span>
+          <span class="generic-block white-block g8">
+            <img
+              class="chess-pieces"
+              src="assets/svg/cavalo-pretas.svg"
+              alt="Cavalo preto"
+            />
+          </span>
+          <span class="generic-block purple-block h8">
+            <img
+              class="chess-pieces"
+              src="assets/svg/torre-pretas.svg"
+              alt="Torre preta"
+            />
+          </span>
+        </div>
+
+        <!-- Coluna 7 -->
+        <div class="horizontal-column">
+          <span class="generic-block relative purple-block a7">
+            <small class="small-absolute-number white-small">7</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-pretas.svg"
+              alt="Peão preto"
+            />
+          </span>
+          <span class="generic-block white-block b7">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-pretas.svg"
+              alt="Peão preto"
+            />
+          </span>
+          <span class="generic-block purple-block c7">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-pretas.svg"
+              alt="Peão preto"
+            />
+          </span>
+          <span class="generic-block white-block d7">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-pretas.svg"
+              alt="Peão preto"
+            />
+          </span>
+          <span class="generic-block purple-block e7">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-pretas.svg"
+              alt="Peão preto"
+            />
+          </span>
+          <span class="generic-block white-block f7">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-pretas.svg"
+              alt="Peão preto"
+            />
+          </span>
+          <span class="generic-block purple-block g7">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-pretas.svg"
+              alt="Peão preto"
+            />
+          </span>
+          <span class="generic-block white-block h7">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-pretas.svg"
+              alt="Peão preto"
+            />
+          </span>
+        </div>
+
+        <!-- Coluna 6 -->
+        <div class="horizontal-column">
+          <span class="generic-block relative white-block a6">
+            <small class="small-absolute-number">6</small>
+          </span>
+          <span class="generic-block purple-block b6"></span>
+          <span class="generic-block white-block c6"></span>
+          <span class="generic-block purple-block d6"></span>
+          <span class="generic-block white-block e6"></span>
+          <span class="generic-block purple-block f6"></span>
+          <span class="generic-block white-block g6"></span>
+          <span class="generic-block purple-block h6"></span>
+        </div>
+
+        <!-- Coluna 5 -->
+        <div class="horizontal-column">
+          <span class="generic-block relative purple-block a5">
+            <small class="small-absolute-number white-small">5</small>
+          </span>
+          <span class="generic-block white-block b5"></span>
+          <span class="generic-block purple-block c5"></span>
+          <span class="generic-block white-block d5"></span>
+          <span class="generic-block purple-block e5"></span>
+          <span class="generic-block white-block f5"></span>
+          <span class="generic-block purple-block g5"></span>
+          <span class="generic-block white-block h5"></span>
+        </div>
+
+        <!-- Coluna 4 -->
+        <div class="horizontal-column">
+          <span class="generic-block relative white-block a4">
+            <small class="small-absolute-number">4</small>
+          </span>
+          <span class="generic-block purple-block b4"></span>
+          <span class="generic-block white-block c4"></span>
+          <span class="generic-block purple-block d4"></span>
+          <span class="generic-block white-block e4"></span>
+          <span class="generic-block purple-block f4"></span>
+          <span class="generic-block white-block g4"></span>
+          <span class="generic-block purple-block h4"></span>
+        </div>
+
+        <!-- Coluna 3 -->
+        <div class="horizontal-column">
+          <span class="generic-block relative purple-block a3">
+            <small class="small-absolute-number white-small">3</small>
+          </span>
+          <span class="generic-block white-block b3"></span>
+          <span class="generic-block purple-block c3"></span>
+          <span class="generic-block white-block d3"></span>
+          <span class="generic-block purple-block e3"></span>
+          <span class="generic-block white-block f3"></span>
+          <span class="generic-block purple-block g3"></span>
+          <span class="generic-block white-block h3"></span>
+        </div>
+
+        <!-- Coluna 2 -->
+        <div class="horizontal-column">
+          <span class="generic-block relative white-block a2">
+            <small class="small-absolute-number">2</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-brancas.svg"
+              alt="Peão branco"
+            />
+          </span>
+          <span class="generic-block purple-block b2">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-brancas.svg"
+              alt="Peão branco"
+            />
+          </span>
+          <span class="generic-block white-block c2">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-brancas.svg"
+              alt="Peão branco"
+            />
+          </span>
+          <span class="generic-block purple-block d2">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-brancas.svg"
+              alt="Peão branco"
+            />
+          </span>
+          <span class="generic-block white-block e2">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-brancas.svg"
+              alt="Peão branco"
+            />
+          </span>
+          <span class="generic-block purple-block f2">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-brancas.svg"
+              alt="Peão branco"
+            />
+          </span>
+          <span class="generic-block white-block g2">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-brancas.svg"
+              alt="Peão branco"
+            />
+          </span>
+          <span class="generic-block purple-block h2">
+            <img
+              class="chess-pieces"
+              src="assets/svg/peao-brancas.svg"
+              alt="Peão branco"
+            />
+          </span>
+        </div>
+
+        <!-- Coluna 1 -->
+        <div class="horizontal-column">
+          <span class="generic-block relative purple-block a1">
+            <small class="small-absolute-letter white-small">A</small>
+            <small class="small-absolute-number white-small">1</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/torre-brancas.svg"
+              alt="Torre branca"
+            />
+          </span>
+          <span class="generic-block relative white-block b1">
+            <small class="small-absolute-letter">B</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/cavalo-brancas.svg"
+              alt="Cavalo branca"
+            />
+          </span>
+          <span class="generic-block relative purple-block c1">
+            <small class="small-absolute-letter white-small">C</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/bispo-brancas.svg"
+              alt="Bispo branca"
+            />
+          </span>
+          <span class="generic-block relative white-block d1">
+            <small class="small-absolute-letter">D</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/dama-brancas.svg"
+              alt="Rainha branca"
+            />
+          </span>
+          <span class="generic-block relative purple-block e1">
+            <small class="small-absolute-letter white-small">E</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/rei-brancas.svg"
+              alt="Rei Branco"
+            />
+          </span>
+          <span class="generic-block relative white-block f1">
+            <small class="small-absolute-letter">F</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/bispo-brancas.svg"
+              alt="Bispo branca"
+            />
+          </span>
+          <span class="generic-block relative purple-block g1">
+            <small class="small-absolute-letter white-small">G</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/cavalo-brancas.svg"
+              alt="Cavalo branca"
+            />
+          </span>
+          <span class="generic-block relative white-block h1">
+            <small class="small-absolute-letter">H</small>
+            <img
+              class="chess-pieces"
+              src="assets/svg/torre-brancas.svg"
+              alt="Torre branca"
+            />
+          </span>
+        </div>
+      </section>
+
+      <!-- Modal de usuário -->
+      <dialog class="modal" id="users-modal">
+        <div class="content-modal">
+          <p>
+            Bem-vindo ao Xadrez da Raro! Por favor, digite os nomes dos
+            jogadores.
+          </p>
+          <div class="user-div">
+            <label for="first-user">Jogador 1:</label>
+            <input type="text" id="first-user" />
+          </div>
+
+          <div class="user-div">
+            <label for="second-user">Jogador 2:</label>
+            <input type="text" id="second-user" />
+          </div>
+          <button id="input-submit">Registrar</button>
+          <span class="span-alert" id="alert"></span>
+        </div>
+      </dialog>
+
+      <!-- Informações do Jogador 2 -->
+      <aside class="user-infos user-2">
+        <span class="online-user">J2</span>
+        <div class="user-profile-picture" id="profile-picture-2">R</div>
+        <span class="user-name" id="user-name-2">Raro</span>
+      </aside>
+    </main>
+  </body>
+  <script src="js/modal.js"></script>
+</html>
